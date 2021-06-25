@@ -1,0 +1,8 @@
+version: '3'
+services:
+    angular-okta-sso-service:
+        build: .
+        image: angular-okta-spa-sso:latest
+        container_name: angular-okta-sso-service
+        ports:
+            - "8080:80"
