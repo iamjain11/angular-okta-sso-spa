@@ -74,7 +74,7 @@ You can login with the same account that you created when signing up for your De
         i) create a ec2 instance --> ubuntu/amazon linux, download keypair pem file
         ii) chmod 400 your-keypair.pem
         iii) ssh -i /path/your-keypair.pem ubuntu@public_dns_name 
-        iv) install docker https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html
+        iv) install docker https://github.com/iamjain11/aws-instance-setup-scripts/blob/master/aws_ubuntu_docker_ce_setup.sh or https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html
         iv) git clone https://github.com/iamjain11/angular-okta-sso-spa.git
         v) cd angular-okta-sso-spa
         vi) docker-compose -f docker-compose.yml up -d --build
